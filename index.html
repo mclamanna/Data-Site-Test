@@ -12,11 +12,13 @@
   <!-- Custom styles for this site -->
   <link href="scss/style.css" rel="stylesheet">
   <!-- Custom JS for this site -->
- 
-  <!-- Navbar -->
-
+  <script src="js/siteCustom.js"></script>
+  <!-- Navbar JS -->
 </head>
-<script id="replace_with_navbar" src="js/siteCustom.js"></script>
+<div w3-include-html="navbar.html"></div>
+<script>
+  includeHTML();
+  </script>
 <body>
   <div class="container">
     <div class="row justify-content-center">
