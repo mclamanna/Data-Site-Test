@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body {
   background-color: #222222;
@@ -16,7 +16,26 @@ body {
 h3 {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
+
+.branding {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.navbar-toggler, .btn-close, .text-reset:focus
+{
+         outline: none !important;
+         box-shadow: none !important;
+}
+ 
+.navbar-dark .navbar-toggler {
+   border: none;
+}
+ 
