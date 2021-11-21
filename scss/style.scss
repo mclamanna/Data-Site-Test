@@ -28,14 +28,29 @@ h3 {
     font-weight: 300;
     font-size: 1.2rem;
 }
-
-.navbar-toggler, .btn-close, .text-reset:focus
-{
-         outline: none !important;
-         box-shadow: none !important;
-}
  
+.fa-circle {
+    color: #7a7a7a;
+}
+.fa-bars:hover {
+    color: #222222;
+}
+
 .navbar-dark .navbar-toggler {
    border: none;
+   background: #ffffff;
 }
+
+.custom-button:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    border: none;
+    background: red;
+ }
+ 
  
