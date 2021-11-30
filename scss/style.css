@@ -21,6 +21,18 @@ h3 {
   font-size: 1.2rem;
 }
 
+.branding2 {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.form-switch {
+  z-index: 1046;
+}
+
 .fa-circle {
   color: #7a7a7a;
 }
@@ -32,6 +44,19 @@ h3 {
 .navbar-dark .navbar-toggler {
   border: none;
   background: #ffffff;
+}
+
+.nav-link2 {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 .custom-button:focus {
