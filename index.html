@@ -11,6 +11,7 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   <!-- Custom styles for this site -->
   <link href="scss/style.css" rel="stylesheet">
+  <?php include 'dbcon.php';?>
   <!-- Custom JS for this site call navbar -->
   <script src="js/siteCustom.js"></script>
   <!-- Navbar JS -->
@@ -118,7 +119,23 @@
             </div>
           </div>
         </div>
-
+        <?php
+        CREATE TABLE `District` (
+          `Connecticut` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `DE-PA2` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `MA-RI` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `Maryland` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `ME-NH-VT` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `New Jersey` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `New York 1` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `New York 2` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `New York` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `North Carolina` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `Pennsylvania 1` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+          `Virginia` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+        COMMIT;
+        ?> 
   
 
 
